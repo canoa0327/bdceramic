@@ -6,7 +6,7 @@ import MainFooter from './components/main/MainFooter';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <MainNavbar />
 
       <Routes>
@@ -14,7 +14,7 @@ function App() {
       </Routes>
 
       <MainFooter />
-    </div>
+    </>
   );
 }
 
